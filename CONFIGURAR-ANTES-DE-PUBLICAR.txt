@@ -1,0 +1,12 @@
+ANTES DE PUBLICAR:
+
+1) Crie o projeto no Supabase.
+2) Execute o arquivo supabase.sql no SQL Editor.
+3) Crie o usuário administrador em Authentication > Users.
+4) Cole o Project URL e a chave anon/publishable em config.js.
+5) Teste um pedido pelo index.html e confirme se aparece em admin.html.
+6) Só depois publique o repositório no GitHub Pages.
+
+IMPORTANTE:
+GitHub Pages sozinho não possui banco de dados. Sem o Supabase configurado,
+os pedidos ficam apenas no navegador onde foram feitos e não chegam ao dashboard de outro dispositivo.
